@@ -1,0 +1,113 @@
+(footprint "Touch-pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.5 -12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8db87ed4-19c4-4d83-add4-286367ce0f6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Touch-pad"
+		(at 0 -7.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b0ffe49-d7e8-49ac-9c35-4ce2c7fa0562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abb9b037-2f4c-4454-8990-d9be250d4ea5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c8f9fb8-9ae6-4880-b35d-69facc4a703e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3cdfb2b9-2649-4b58-a0ac-ec9d76acfc98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -4 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 4 -6) (xy 4 -1) (xy 3 -1) (xy 3 1) (xy 4 1) (xy 4 6) (xy 0 6) (xy 0 4) (xy -2 4) (xy -2 -4)
+					(xy 0 -4) (xy 0 -6)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a5d64845-932b-4059-b979-b915909f416e")
+	)
+	(pad "1" smd custom
+		(at 4 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -4 -6) (xy -4 -1) (xy -3 -1) (xy -3 1) (xy -4 1) (xy -4 6) (xy 0 6) (xy 0 4) (xy 2 4) (xy 2 -4)
+					(xy 0 -4) (xy 0 -6)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ddf14b2c-10fb-48d4-ae92-ca19888b87ff")
+	)
+	(embedded_fonts no)
+)
