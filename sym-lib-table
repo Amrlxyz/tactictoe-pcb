@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "tictactoe")(type "KiCad")(uri "${KIPRJMOD}/tictactoe.kicad_sym")(options "")(descr ""))
+  (lib (name "tactictoe")(type "KiCad")(uri "${KIPRJMOD}/tactictoe.kicad_sym")(options "")(descr ""))
 )
